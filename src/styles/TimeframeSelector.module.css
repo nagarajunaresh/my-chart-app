@@ -1,0 +1,38 @@
+.timeframeSelector {
+    display: flex;
+    justify-content: center;
+    margin: 20px 0;
+    padding-bottom: 20px;
+}
+
+.timeframeSelector h2 {
+    text-align: center;
+    font-size: 2rem;
+    margin-bottom: 20px;
+    color: #28a745;
+    padding-right: 10px;
+}
+
+.timeframeSelector button {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    padding: 20px;
+    cursor: pointer;
+    font-size: 1rem;
+    transition: background-color 0.3s ease;
+}
+
+.timeframeSelector button:hover {
+    background-color: #0056b3;
+}
+
+.timeframeSelector button:not(:last-child) {
+    margin-right: 10px;
+}
+
+.timeframeSelector button {
+    margin-bottom: 10px;
+    font-size: 1rem;
+}

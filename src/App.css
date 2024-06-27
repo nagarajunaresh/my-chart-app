@@ -1,5 +1,14 @@
-.App {
+.app {
   text-align: center;
+  padding: 20px;
+}
+
+.app-title {
+  color: #dc3545;
+}
+
+.content {
+  margin-top: 20px;
 }
 
 .App-logo {
