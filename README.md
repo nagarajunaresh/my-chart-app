@@ -1,10 +1,19 @@
-# Getting Started with Create React App
+# My Chart App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+My Chart App is a React.js application that uses Recharts for displaying interactive line charts. It includes components for chart display and timeframe selection.
 
-## Available Scripts
+## Setup
 
-In the project directory, you can run:
+To run this project locally, follow these steps:
+
+1. **Clone the repository:**
+
+   ```bash
+   git clone <repository-url>
+   cd my-chart-app
+   ```
+
+### `npm install`
 
 ### `npm start`
 
@@ -27,9 +36,19 @@ It correctly bundles React in production mode and optimizes the build for the be
 The build is minified and the filenames include the hashes.\
 Your app is ready to be deployed!
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+See the section https://github.com/nagarajunaresh/my-chart-app.git
 
 ### `npm run eject`
+
+### Explanation
+
+- **Folder Structure**: Organized into `components`, `data`, and `styles` directories for clarity and separation of concerns.
+
+- **React Components**: `Chart.jsx` and `TimeframeSelector.jsx` use CSS modules for scoped styling, ensuring styles do not clash with other components.
+
+- **App Component**: The `App.js` file integrates both `Chart` and `TimeframeSelector` components, demonstrating their usage within the application.
+
+- **Styling**: CSS modules (`Chart.module.css` and `TimeframeSelector.module.css`) are used to style components with scoped CSS, providing better maintainability and encapsulation.
 
 **Note: this is a one-way operation. Once you `eject`, you can't go back!**
 
